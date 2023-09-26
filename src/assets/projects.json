@@ -2,8 +2,8 @@
     "projects":[
         {
             "name": "Gauntlet c64 Game",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/gauntlet_c64_game/",
+            "githubLink": "https://github.com/mJastrzebski6/Gauntlet-I-c64",
             "date": 2022,
             "categories":["All","Game", "Typescript"],
             "description":""
@@ -18,71 +18,71 @@
         },
         {
             "name": "Arkanoid Game",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/arkanoid_game/",
+            "githubLink": "https://github.com/mJastrzebski6/Arkanoid-game",
             "date": 2021,
             "categories":["All","Game", "Javascript"],
             "description":""
         },
         {
             "name": "Arkanoid Map Generator",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/arkanoid_generator/",
+            "githubLink": "https://github.com/mJastrzebski6/Arkanoid-generator",
             "date": 2021,
             "categories":["All","Tool", "Javascript"],
             "description":""
         },
         {
             "name": "Simple Web Paint",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/simple_web_paint/",
+            "githubLink": "https://github.com/mJastrzebski6/SimpleWebPaint",
             "date": 2023,
             "categories":["All","Tool", "Javascript"],
             "description":""
         },
         {
             "name": "Dog Vision Converter",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/dog_vision_converter/",
+            "githubLink": "https://github.com/mJastrzebski6/DogVisionConverter",
             "date": 2022,
             "categories":["All","Tool", "Javascript"],
             "description":""
         },
         {
             "name": "Polish City Finder",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/polish_city_finder/",
+            "githubLink": "https://github.com/mJastrzebski6/PolishCityFinder",
             "date": 2021,
             "categories":["All","Tool", "Javascript"],
             "description":""
         },
         {
             "name": "Click&Slide Game",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/click_and_slide/",
+            "githubLink": "https://github.com/mJastrzebski6/Click-Slide",
             "date": 2020,
             "categories":["All","Game", "Javascript"],
             "description":""
         },
         {
             "name": "Dr.Mario Game",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/dr_mario/",
+            "githubLink": "https://github.com/mJastrzebski6/Dr.Mario",
             "date": 2021,
             "categories":["All","Game", "Javascript"],
             "description":""
         },
         {
             "name": "Ball Lines Game",
-            "hostingLink": "",
-            "githubLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/ball_lines/",
+            "githubLink": "https://github.com/mJastrzebski6/Ball-Lines",
             "date": 2022,
             "categories":["All","Game", "Typescript"],
             "description":""
         },
         {
             "name": "Big Five Result Comparator",
-            "hostingLink": "",
+            "hostingLink": "http://chemik4.ct8.pl/big_five/",
             "githubLink": "",
             "date": 2023,
             "categories":["All","Tool", "Typescript", "React"],
@@ -91,18 +91,11 @@
         {
             "name": "Dream Calendar",
             "hostingLink": "",
-            "githubLink": "",
-            "date": 2022,
-            "categories":["All","Tool", "Android-java"],
-            "description":""
-        },
-        {
-            "name": "MBTI Friends",
-            "hostingLink": "",
-            "githubLink": "",
+            "githubLink": "https://github.com/mJastrzebski6/DreamCalendar",
             "date": 2022,
             "categories":["All","Tool", "Android-java"],
             "description":""
         }
+
     ]
 }

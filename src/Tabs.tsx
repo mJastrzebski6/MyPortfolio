@@ -61,6 +61,7 @@ export default function CustomizedTabs({projects}:ProjectsInterface) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    event
     setValue(newValue);
   };
 
@@ -69,7 +70,7 @@ export default function CustomizedTabs({projects}:ProjectsInterface) {
   return (
     <Box sx={{ width: '100%'}}>
       <TabContext value={value.toString()}>
-        <Box sx={{ bgcolor: '#242424' }} display="flex" justifyContent="center" width="100%" >
+        <Box  display="flex" justifyContent="center" width="100%" >
           <StyledTabs
             value={value}
             onChange={handleChange}
@@ -84,10 +85,12 @@ export default function CustomizedTabs({projects}:ProjectsInterface) {
         </Box>
         {tabs.map((tab, index)=>{
           return(
-            <TabPanel value={index.toString()} key={index} sx={{ display:'flex', flexWrap:"wrap", justifyContent:"center"}}>
-              {projects.map((project, index2)=>{
-                if(project.categories.includes(tab)) return(<Project {...project} key={index2}/>)
-              })}
+            <TabPanel value={index.toString()} key={index}>
+              <Box sx={{ display:'flex', flexWrap:"wrap", justifyContent:"center"}}>
+                {projects.map((project, index2)=>{
+                  if(project.categories.includes(tab)) return(<Project {...project} key={index2}/>)
+                })}
+              </Box>
             </TabPanel>
           )
         })}

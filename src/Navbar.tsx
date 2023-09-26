@@ -11,7 +11,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+import ScienceIcon from '@mui/icons-material/Science';
+import "./Navbar.css";
 
 const pages = ["about", "projects", "contact"];
 
@@ -31,12 +32,10 @@ const Navbar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <ScienceIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
-            component="a"
-            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -47,7 +46,9 @@ const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            <Link to={"/"} className="logoLink">
+              HOME
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -79,20 +80,19 @@ const Navbar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  {/* <Typography textAlign="center">{page}</Typography> */}
-                  <CustomLink to={page}>{page.toUpperCase()}</CustomLink>
-                </MenuItem>
+              {pages.map((page, index) => (
+                <CustomLink key={index} to={page}>
+                  <MenuItem key={page} onClick={handleCloseNavMenu}  className="test2">
+                    {page.toUpperCase()}
+                  </MenuItem>
+                </CustomLink>
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <ScienceIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
-            component="a"
-            href="/"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -104,18 +104,22 @@ const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            <Link className="logoLink" to={"/"}>
+              HOME
+            </Link>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
-                {/* {page} */}
-                <CustomLink to={page}>{page.toUpperCase()}</CustomLink>
-              </Button>
+            {pages.map((page, index) => (
+              <CustomLink key={index} to={page}>
+                <Button
+                  key={page}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "#242424", display: "block" }} 
+                  className="test2"
+                >
+                  {page.toUpperCase()}
+                </Button>
+              </CustomLink>
             ))}
           </Box>
         </Toolbar>
@@ -131,7 +135,7 @@ interface CustomLinkInterface {
 
 function CustomLink({ to, children, ...props }: CustomLinkInterface) {
   return (
-    <Link to={to} {...props}>
+    <Link to={to} {...props} className="test">
       {children}
     </Link>
   );

@@ -1,0 +1,23 @@
+
+
+.projects{
+    width: 2000px;
+}
+
+/* @media (max-width: 600px) {
+    .projects {
+      width: 150px;
+    }
+  } */
+
+  @media (max-width: 1000px) {
+    .projects {
+      width: 550px 
+    }
+  }
+
+  @media (max-width: 610px) {
+    .projects {
+      width: 100% 
+    }
+  }
