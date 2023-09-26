@@ -1,0 +1,108 @@
+{
+    "projects":[
+        {
+            "name": "Gauntlet c64 Game",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2022,
+            "categories":["All","Game", "Typescript"],
+            "description":""
+        },
+        {
+            "name": "Gauntlet c64 Map Generator",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2023,
+            "categories":["All","Tool", "Typescript", "React"],
+            "description":""
+        },
+        {
+            "name": "Arkanoid Game",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2021,
+            "categories":["All","Game", "Javascript"],
+            "description":""
+        },
+        {
+            "name": "Arkanoid Map Generator",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2021,
+            "categories":["All","Tool", "Javascript"],
+            "description":""
+        },
+        {
+            "name": "Simple Web Paint",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2023,
+            "categories":["All","Tool", "Javascript"],
+            "description":""
+        },
+        {
+            "name": "Dog Vision Converter",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2022,
+            "categories":["All","Tool", "Javascript"],
+            "description":""
+        },
+        {
+            "name": "Polish City Finder",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2021,
+            "categories":["All","Tool", "Javascript"],
+            "description":""
+        },
+        {
+            "name": "Click&Slide Game",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2020,
+            "categories":["All","Game", "Javascript"],
+            "description":""
+        },
+        {
+            "name": "Dr.Mario Game",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2021,
+            "categories":["All","Game", "Javascript"],
+            "description":""
+        },
+        {
+            "name": "Ball Lines Game",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2022,
+            "categories":["All","Game", "Typescript"],
+            "description":""
+        },
+        {
+            "name": "Big Five Result Comparator",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2023,
+            "categories":["All","Tool", "Typescript", "React"],
+            "description":""
+        },
+        {
+            "name": "Dream Calendar",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2022,
+            "categories":["All","Tool", "Android-java"],
+            "description":""
+        },
+        {
+            "name": "MBTI Friends",
+            "hostingLink": "",
+            "githubLink": "",
+            "date": 2022,
+            "categories":["All","Tool", "Android-java"],
+            "description":""
+        }
+    ]
+}
