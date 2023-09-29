@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import ScienceIcon from '@mui/icons-material/Science';
+import ScienceIcon from "@mui/icons-material/Science";
 import "./Navbar.css";
 
 const pages = ["about", "projects", "contact"];
@@ -32,7 +32,6 @@ const Navbar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <ScienceIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -47,6 +46,9 @@ const Navbar = () => {
             }}
           >
             <Link to={"/"} className="logoLink">
+              <ScienceIcon
+                sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+              />
               HOME
             </Link>
           </Typography>
@@ -82,14 +84,18 @@ const Navbar = () => {
             >
               {pages.map((page, index) => (
                 <CustomLink key={index} to={page}>
-                  <MenuItem key={page} onClick={handleCloseNavMenu}  className="test2">
+                  <MenuItem
+                    key={page}
+                    onClick={handleCloseNavMenu}
+                    className="test2"
+                  >
                     {page.toUpperCase()}
                   </MenuItem>
                 </CustomLink>
               ))}
             </Menu>
           </Box>
-          <ScienceIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+
           <Typography
             variant="h5"
             noWrap
@@ -105,6 +111,9 @@ const Navbar = () => {
             }}
           >
             <Link className="logoLink" to={"/"}>
+              <ScienceIcon
+                sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+              />
               HOME
             </Link>
           </Typography>
@@ -114,7 +123,7 @@ const Navbar = () => {
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "#242424", display: "block" }} 
+                  sx={{ my: 2, color: "#242424", display: "block" }}
                   className="test2"
                 >
                   {page.toUpperCase()}

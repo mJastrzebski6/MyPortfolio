@@ -12,8 +12,8 @@ const Home = () => {
           A young software developer from Cracow. I enjoy creating applications
           in JavaScript. I am familiar with React and have experience with Vue, Angular, and Svelte.
           I like developing 2D games and I am open to exploring new horizons.
-          I have also found satisfaction in creating Android application. In
-          addition to school projects, I did a few of my own projects.
+          I have also found satisfaction in creating Android applications. In
+          addition to school projects, I did a few of my own.
         </Typography>
         <Typography variant="body1" gutterBottom sx={{mb:3}}>
           My friends describe me as a helpful and dutiful person who can explain

@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import "./Footer.css"
 
 export const Footer: FC = (): ReactElement => {
   return (
@@ -14,12 +15,13 @@ export const Footer: FC = (): ReactElement => {
         height: "auto",
         paddingTop: "4rem",
         paddingBottom: "3rem",
-        bottom: 0,
-        px: 10
+        px: 10,
+        bottom: 0
       }}
+      className="foot"
     >
       <Container maxWidth="lg">
-          <Grid item xs={12} container direction="row" alignItems="center" justifyContent={"space-between"}>
+          <Grid item xs={12} container direction="row" className="gridFooter">
                 <Box>{`Maciej Jastrzębski ${new Date().getFullYear()}`} </Box>
                 <Box className={"iconsBox"}>
                     <IconButton 

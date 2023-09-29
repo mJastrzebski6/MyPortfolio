@@ -7,19 +7,20 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
+import Container from '@mui/material/Container';
 
 const timelineElements = [
     {
         date: "October 2023",
-        description: "I am commencing my studies at the AGH University of Science and Technology in Krakow, majoring in Computer Science and Intelligent Systems."
+        description: "I am commencing my studies at the <b style='color:#00A0DC;'>AGH University of Science and Technology</b> in Krakow, majoring in <b style='color:#00A0DC;'>Computer Science and Intelligent Systems.</b>"
     },
     {
         date: "May 2023",
-        description: "I graduated the Upper Secondary Schools of Communications in Cracow"
+        description: "I graduated the <b style='color:#FFFF99;'>Upper Secondary Schools of Communications</b> in Cracow"
     },
     {
         date: "October 2021",
-        description: "I completed an internship at Prymsoft company, during which I was involved in debugging the Vue.js frontend project and also initiated a new project focused on team and task management."
+        description: "I completed an internship at Prymsoft company, during which I was involved in debugging the <b style='color:#00CC66;'>Vue.js</b> frontend project and also initiated a new project focused on team and task management."
     },
     {
         date: "January 2021",
@@ -33,26 +34,28 @@ const timelineElements = [
 
 export default function About() {
   return (
-    <Timeline
-      sx={{
-        [`& .${timelineOppositeContentClasses.root}`]: {
-          flex: 0.2,
-        },
-        my: 5
-      }}
-    >
-        {timelineElements.map((element, index)=> {
-            return(
-                <TimelineItem key={index}>
-                    <TimelineOppositeContent color="textSecondary">{element.date}</TimelineOppositeContent>
-                    <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
-                    </TimelineSeparator>
-                    <TimelineContent>{element.description}</TimelineContent>
-                </TimelineItem>
-            )
-        })}
-    </Timeline>
+  <Container maxWidth="lg">
+      <Timeline
+        sx={{
+          [`& .${timelineOppositeContentClasses.root}`]: {
+            flex: 0.2,
+          },
+          my: 5
+        }}
+      >
+          {timelineElements.map((element, index)=> {
+              return(
+                  <TimelineItem key={index}>
+                      <TimelineOppositeContent color="textSecondary">{element.date}</TimelineOppositeContent>
+                      <TimelineSeparator>
+                          <TimelineDot />
+                          <TimelineConnector />
+                      </TimelineSeparator>
+                      <TimelineContent><div dangerouslySetInnerHTML={{ __html: element.description }}></div></TimelineContent>
+                  </TimelineItem>
+              )
+          })}
+      </Timeline>
+    </Container>
   );
 }

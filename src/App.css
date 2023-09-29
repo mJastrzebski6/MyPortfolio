@@ -1,3 +1,10 @@
-/* .site{
-     padding-left: calc(100vw - 100%) 
-} */
+.content{
+    /* min-height: 100; */
+    flex:1
+}
+
+.container{
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+}

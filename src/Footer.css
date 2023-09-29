@@ -1,0 +1,13 @@
+
+.gridFooter {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+@media (max-width: 530px) {
+    .gridFooter {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
