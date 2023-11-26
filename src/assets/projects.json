@@ -17,6 +17,14 @@
             "description":""
         },
         {
+            "name": "Portfolio site",
+            "hostingLink": "http://chemik4.ct8.pl/",
+            "githubLink": "https://github.com/mJastrzebski6/MyPortfolio",
+            "date": 2023,
+            "categories":["All", "Typescript", "React"],
+            "description":""
+        },
+        {
             "name": "Arkanoid Game",
             "hostingLink": "http://chemik4.ct8.pl/arkanoid_game/",
             "githubLink": "https://github.com/mJastrzebski6/Arkanoid-game",
