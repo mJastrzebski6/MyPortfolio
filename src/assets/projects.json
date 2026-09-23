@@ -130,7 +130,7 @@
         },
         {
             "name": "Keep talking and nobody explodes optimized manual",
-            "hostingLink": "https://chemik.ct8.pl/projects/ktane_manual",
+            "hostingLink": "https://chemik.ct8.pl/ktane_manual",
             "githubLink": "https://github.com/mJastrzebski6/ktane_the_best_multilingual_manual",
             "date": 2026,
             "categories":["All","Game", "Tool", "Typescript", "React"],
