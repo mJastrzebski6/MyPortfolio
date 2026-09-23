@@ -3,10 +3,11 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { Box, CardActionArea, IconButton } from "@mui/material";
+import { Box, CardActionArea, IconButton, Tooltip } from "@mui/material";
 import "./Project.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WebAssetIcon from "@mui/icons-material/WebAsset";
+import InfoIcon from '@mui/icons-material/Info';
 
 const Project = (project: ProjectInterface) => {
   return (
@@ -23,48 +24,43 @@ const Project = (project: ProjectInterface) => {
           alt={`${project.name} Image`}
         />
       </CardActionArea>
-      
-        <CardContent
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            justifyContent: "space-between",
-          }}
-        >
-          <Typography gutterBottom variant="h5" component="div">
-            {project.name}
-          </Typography>
 
-          <Box className="iconsBox">
-         {project.hostingLink !== "" &&
-           <IconButton
-           component={"a"}
-           href={project.hostingLink}
-           target="blank"
-         >
-            <WebAssetIcon />
-          </IconButton>
-          
-         }
+      <CardContent
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
+        <Typography gutterBottom variant="h5" component="div">
+          {project.name}
+        </Typography>
 
-
-          {project.githubLink !== "" && 
+        <Box className="iconsBox">
+          {project.hostingLink !== "" && (
             <IconButton
-              component="a"
-              href={project.githubLink}
+              component={"a"}
+              href={project.hostingLink}
               target="blank"
             >
+              <WebAssetIcon />
+            </IconButton>
+          )}
+          {project.githubLink !== "" && (
+            <IconButton component="a" href={project.githubLink} target="blank">
               <GitHubIcon />
             </IconButton>
-            }
-          
-            
-            
-          </Box>
-          
-        </CardContent>
-      
+          )}
+          {project.description !== "" && (
+            <Tooltip title={<Typography fontSize={30}>{project.description}</Typography> } arrow>
+            <IconButton>
+              <InfoIcon />
+            </IconButton>
+          </Tooltip>
+          )}
+        </Box>
+      </CardContent>
     </Card>
   );
 };

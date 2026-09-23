@@ -2,91 +2,91 @@
     "projects":[
         {
             "name": "Gauntlet c64 Game",
-            "hostingLink": "http://chemik4.ct8.pl/gauntlet_c64_game/",
+            "hostingLink": "http://chemik.ct8.pl/gauntlet_c64_game/",
             "githubLink": "https://github.com/mJastrzebski6/Gauntlet-I-c64",
             "date": 2022,
             "categories":["All","Game", "Typescript"],
-            "description":""
+            "description":"Commodore64 game Gauntlet. Typescript and canvas"
         },
         {
             "name": "Gauntlet c64 Map Generator",
-            "hostingLink": "",
-            "githubLink": "",
-            "date": 2023,
+            "hostingLink": "https://chemik.ct8.pl/gauntlet_map_generator/",
+            "githubLink": "https://github.com/mJastrzebski6/Gauntlet-c64-Map-Generator",
+            "date": 2024,
             "categories":["All","Tool", "Typescript", "React"],
-            "description":""
+            "description":"Map generator for Commodore64 game Gauntlet. Typescript and canvas"
         },
         {
             "name": "Arkanoid Game",
-            "hostingLink": "http://chemik4.ct8.pl/arkanoid_game/",
+            "hostingLink": "http://chemik.ct8.pl/arkanoid_game/",
             "githubLink": "https://github.com/mJastrzebski6/Arkanoid-game",
             "date": 2021,
             "categories":["All","Game", "Javascript"],
-            "description":""
+            "description":"Arkanoid game using javascript and canvas"
         },
         {
             "name": "Arkanoid Map Generator",
-            "hostingLink": "http://chemik4.ct8.pl/arkanoid_generator/",
+            "hostingLink": "http://chemik.ct8.pl/arkanoid_generator/",
             "githubLink": "https://github.com/mJastrzebski6/Arkanoid-generator",
             "date": 2021,
             "categories":["All","Tool", "Javascript"],
-            "description":""
+            "description":"Arkanoid Map Generator. Using Canvas and Spritesheets"
         },
         {
             "name": "Simple Web Paint",
-            "hostingLink": "http://chemik4.ct8.pl/simple_web_paint/",
+            "hostingLink": "http://chemik.ct8.pl/simple_web_paint/",
             "githubLink": "https://github.com/mJastrzebski6/SimpleWebPaint",
             "date": 2023,
             "categories":["All","Tool", "Javascript"],
-            "description":""
+            "description":"Nothing more than the title"
         },
         {
             "name": "Dog Vision Converter",
-            "hostingLink": "http://chemik4.ct8.pl/dog_vision_converter/",
+            "hostingLink": "http://chemik.ct8.pl/dog_vision_converter/",
             "githubLink": "https://github.com/mJastrzebski6/DogVisionConverter",
             "date": 2022,
             "categories":["All","Tool", "Javascript"],
-            "description":""
+            "description": "Website that converts a color photo to the way dogs would probably see it."
         },
         {
             "name": "Polish City Finder",
-            "hostingLink": "http://chemik4.ct8.pl/polish_city_finder/",
+            "hostingLink": "http://chemik.ct8.pl/polish_city_finder/",
             "githubLink": "https://github.com/mJastrzebski6/PolishCityFinder",
             "date": 2021,
             "categories":["All","Tool", "Javascript"],
-            "description":""
+            "description":"Site that allows you to find cities within a given radius from a given city."
         },
         {
             "name": "Click&Slide Game",
-            "hostingLink": "http://chemik4.ct8.pl/click_and_slide/",
+            "hostingLink": "http://chemik.ct8.pl/click_and_slide/",
             "githubLink": "https://github.com/mJastrzebski6/Click-Slide",
             "date": 2020,
             "categories":["All","Game", "Javascript"],
-            "description":""
+            "description":"Famous simple game"
         },
         {
             "name": "Dr.Mario Game",
-            "hostingLink": "http://chemik4.ct8.pl/dr_mario/",
+            "hostingLink": "http://chemik.ct8.pl/dr_mario/",
             "githubLink": "https://github.com/mJastrzebski6/Dr.Mario",
             "date": 2021,
             "categories":["All","Game", "Javascript"],
-            "description":""
+            "description":"Take on the role of Dr. Mario and get rid of viruses using pills"
         },
         {
             "name": "Ball Lines Game",
-            "hostingLink": "http://chemik4.ct8.pl/ball_lines/",
+            "hostingLink": "http://chemik.ct8.pl/ball_lines/",
             "githubLink": "https://github.com/mJastrzebski6/Ball-Lines",
             "date": 2022,
             "categories":["All","Game", "Typescript"],
-            "description":""
+            "description":"Difficult game of placing the ball in lines"
         },
         {
             "name": "Big Five Result Comparator",
-            "hostingLink": "http://chemik4.ct8.pl/big_five/",
+            "hostingLink": "http://chemik.ct8.pl/big_five/",
             "githubLink": "",
             "date": 2023,
             "categories":["All","Tool", "Typescript", "React"],
-            "description":""
+            "description":"The app that uses API and allows you to compare results from the big five test site. no longer working"
         },
         {
             "name": "Dream Calendar",
@@ -94,8 +94,41 @@
             "githubLink": "https://github.com/mJastrzebski6/DreamCalendar",
             "date": 2022,
             "categories":["All","Tool", "Android-java"],
-            "description":""
+            "description":"Application for Android phones that allows you to write down dreams, add categories and search for keywords in them."
+        },
+        {
+            "name": "Melody Guessing Game",
+            "hostingLink": "https://chemik.ct8.pl/melody_guesser_game/",
+            "githubLink": "https://github.com/mJastrzebski6/melody_guesser_game",
+            "date": 2024,
+            "categories":["All","Game", "React", "Javascript"],
+            "description":"A game where you import mp3 files and guess the titles as quickly as possible."
+        },
+        {
+            "name": "Lyrics Guessing Game",
+            "hostingLink": "https://chemik.ct8.pl/lyrics_guesser_game/",
+            "githubLink": "https://github.com/mJastrzebski6/lyrics_guesser_game",
+            "date": 2024,
+            "categories":["All","Game", "React", "Javascript"],
+            "description":"A game of guessing the lyrics of a pasted song."
+        },
+        {
+            "name": "Deep and graph neural networks",
+            "hostingLink": "",
+            "githubLink": "https://github.com/mJastrzebski6/agh_ggsn",
+            "date": 2026,
+            "categories":["All","ML, DL, AI"],
+            "description":"5 reproducible ML projects: tabular + XGBoost/SHAP, CNN transfer learning, RNN + BERT fine-tuning, GNNs on OGB, and a text-classification capstone with LIME/Captum. Conda + Docker envs, GPU-accelerated (RTX 4060, WSL2) with CPU fallback."
+        },
+        {
+            "name": "Keep talking and nobody explodes optimized manual",
+            "hostingLink": "https://chemik.ct8.pl/projects/ktane_manual",
+            "githubLink": "https://github.com/mJastrzebski6/ktane_the_best_multilingual_manual",
+            "date": 2026,
+            "categories":["All","Game", "Tool", "Typescript", "React"],
+            "description":"Web implementation of Keep talking and nobody explodes manual. Optimized, easy to use with hints. "
         }
+
 
     ]
 }

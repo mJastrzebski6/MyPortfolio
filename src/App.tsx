@@ -20,7 +20,7 @@ function App() {
     <div className="site">
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
-        <Navbar />
+        <Navbar/>
         <div className="container">
           <div className="content">
             <Routes>
