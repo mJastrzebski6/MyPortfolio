@@ -7,11 +7,10 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
+import { Menu as MenuIcon, Science as ScienceIcon } from "@mui/icons-material";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import ScienceIcon from "@mui/icons-material/Science";
 import "./Navbar.css";
 
 const pages = ["about", "projects", "contact"];

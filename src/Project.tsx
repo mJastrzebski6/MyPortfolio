@@ -5,9 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Box, CardActionArea, IconButton, Tooltip } from "@mui/material";
 import "./Project.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import WebAssetIcon from "@mui/icons-material/WebAsset";
-import InfoIcon from '@mui/icons-material/Info';
+import { GitHub as GitHubIcon, Info as InfoIcon, WebAsset as WebAssetIcon } from "@mui/icons-material";
 
 const Project = (project: ProjectInterface) => {
   return (

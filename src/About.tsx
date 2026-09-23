@@ -30,7 +30,7 @@ const colors = {
 const timelineElements = [
   {
     date: "2025 - Present",
-    description: `I lead an 8-person research team in the <b style='color:${colors.pink};'>Synaptica Science Club</b>, working on a project focused on emotion recognition from speech and pupillometry.`,
+    description: `I lead an 8-person research team in the <b style='color:${colors.pink};'>Synaptica Science Club</b>, working on a project focused on emotion recognition from speech and pupillometry. The project will conclude with the publication of a scientific article.`,
   },
   {
     date: "2024 - 2026",

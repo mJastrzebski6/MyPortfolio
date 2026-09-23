@@ -1,10 +1,7 @@
 
 import  { FC, ReactElement } from "react";
 import { Box, Container, Grid, IconButton } from "@mui/material";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { Facebook as FacebookIcon, GitHub as GitHubIcon, Instagram as InstagramIcon, LinkedIn as LinkedInIcon } from '@mui/icons-material';
 import "./Footer.css"
 
 export const Footer: FC = (): ReactElement => {
